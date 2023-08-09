@@ -1,12 +1,15 @@
 # Project List
+
 - [Transfomer From Scratch](#transformer-from-scratch)
 - [Image Inpainting](#image-inpainting)
 - [Text Style Transfer](#text-style-transfer)
 - [3D reconstruction from single RGB image](#3d-reconstruction-from-single-rgb-image)
+- [Image Super resolution](#image-super-resolution)
 
 ## Transformer From Scratch
 
-**Description** : This is a learning oriented project. Tranformers are the state of the art text processing models (Used as a base in all major Large Language Models (LLMs) such as GP T(ransformer) 1,2,3,4, Bard, Llama, Claude, etc). This project is an attempt to understand the transformer architecture and its working. The project is divided into 3 parts 
+**Description** : This is a learning oriented project. Tranformers are the state of the art text processing models (Used as a base in all major Large Language Models (LLMs) such as GP T(ransformer) 1,2,3,4, Bard, Llama, Claude, etc). This project is an attempt to understand the transformer architecture and its working. The project is divided into 3 parts
+
 - Start by learning the very basics of Standard neural networks, backpropagation, tuning and optimizations, etc.
 - Then move to the basics of Processing sequential/text data using RNNs,LSTMs, understand their usecases, drawbacks and the need of transformers.
 - Finally we understand the working of transformers and implement a `text-completion model` using it from scratch.
@@ -15,12 +18,11 @@ The final model we train will not be close to the current SoTA models (due to li
 
 **Pre-Requisites** : Strong Python and C++ programming.
 
-**Resources** : [Sequence Models-Andrew NG](https://www.coursera.org/learn/nlp-sequence-models/),      [Original Transformer Paper-Attenion is All you need](https://arxiv.org/abs/1706.03762),      [Neural Networks-Andrej Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+**Resources** : [Sequence Models-Andrew NG](https://www.coursera.org/learn/nlp-sequence-models/), [Original Transformer Paper-Attenion is All you need](https://arxiv.org/abs/1706.03762), [Neural Networks-Andrej Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 
 **Difficulty** : Medium
 
 **Mentor** : Labib Asari
-
 
 ## Image Inpainting
 
@@ -40,25 +42,19 @@ Building upon your knowledge from the first stage, you will dive into the exciti
 
 **Mentor** : Dhruvanshu, Om
 
-
-
-
 ## Text Style Transfer
 
-**Description** : Text Style Transfer is a task of transferring the style of one text to another. For example, if we have a text in an informal style, we can transfer it to a formal style while preserving the context. These tasks is very useful in many applications such as machine translation, text summarization, etc. 
+**Description** : Text Style Transfer is a task of transferring the style of one text to another. For example, if we have a text in an informal style, we can transfer it to a formal style while preserving the context. These tasks is very useful in many applications such as machine translation, text summarization, etc.
 In this project, we will be implementing a text style transfer model using the Transformer architecture. The exact style-combinations will be decided as we go along the project.
 Example : https://quillbot.com/
 
 **Pre-Requisites** : Strong Python programming, experience in NLP/Deep Learning is preferable.
 
-**Resources** : [awesome-list for Text-Style-Transfer](https://github.com/jiangqn/Text-Style-Transfer), [StyleFormer](https://github.com/PrithivirajDamodaran/Styleformer) 
+**Resources** : [awesome-list for Text-Style-Transfer](https://github.com/jiangqn/Text-Style-Transfer), [StyleFormer](https://github.com/PrithivirajDamodaran/Styleformer)
 
 **Difficulty** : Hard
 
 **Mentor** : Labib Asari
-
-
-
 
 ## 3D reconstruction from single RGB image
 
@@ -67,8 +63,24 @@ Example : https://quillbot.com/
 **Pre-Requisites** : Strong Python programming, experience in Deep Learning is preferable.
 
 **Resources** : [Three-Dimensional Reconstruction from a Single RGB Image
-Using Deep Learning](https://www.mdpi.com/2313-433X/8/9/225), [Pixel2Mesh](https://github.com/nywang16/Pixel2Mesh/tree/master) 
+Using Deep Learning](https://www.mdpi.com/2313-433X/8/9/225), [Pixel2Mesh](https://github.com/nywang16/Pixel2Mesh/tree/master)
 
 **Difficulty** : Hard
 
 **Mentor** : Soham Mulye
+
+## Image Super Resolution
+
+**Description** : Image super-resolution is a critical technique in the field of image processing that aims to enhance the quality and resolution of images, enabling them to exhibit finer details and improved visual fidelity. This process is particularly useful when dealing with low-resolution images that lack clarity and definition, often stemming from limitations in the image capture process or storage constraints.
+
+The goal of image super-resolution is to generate a high-resolution version of an image from its low-resolution counterpart, effectively "upsampling" the image to a higher level of detail. This process involves predicting and inserting additional pixels into the low-resolution image to create a larger and more detailed version while maintaining the coherence and authenticity of the content.
+
+Throughout this project, mentees will gain a comprehensive understanding of image super-resolution techniques, progressing from fundamental image manipulation using OpenCV to advanced deep learning models. They will learn to enhance image quality by exploring interpolation-based methods, upsampling techniques, and intricate deep learning architectures like CNNs and GANs. By implementing models such as SRGAN and ESRGAN from scratch, mentees will acquire hands-on experience in model development, training, and fine-tuning. This journey will equip them with the skills to transform low-resolution images into high-definition visual treasures, blending theoretical knowledge with practical expertise in image enhancement and deep learning.
+
+**Pre-Requisites** : Strong Python programming and Deep Learning is preferrable.
+
+**Resources** : [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning), [Convolutional Neural Networks - Andrew Ng](https://www.coursera.org/learn/convolutional-neural-networks), [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)
+
+**Difficulty** : Medium
+
+**Mentor** : Om Doiphode
