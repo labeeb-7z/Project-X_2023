@@ -5,6 +5,7 @@
 - [Text Style Transfer](#text-style-transfer)
 - [3D reconstruction from single RGB image](#3d-reconstruction-from-single-rgb-image)
 - [Image Super resolution](#image-super-resolution)
+- [VisualFlow - No Code Algorithm Compiler](#visualflow---no-code-algorithm-compiler)
 
 ## Transformer From Scratch
 
@@ -84,3 +85,29 @@ Throughout this project, mentees will gain a comprehensive understanding of imag
 **Difficulty** : Medium
 
 **Mentor** : Om Doiphode
+
+## VisualFlow - No Code Algorithm Compiler
+
+**Description** : VisualFlow is a revolutionary project that transforms algorithm design into a seamless and intuitive process. By utilizing a drag-and-drop interface to construct algorithm flowcharts, this platform automatically generates code blocks and corresponding outputs. VisualFlow eliminates the need for traditional coding, enabling users to prototype, compile, and deploy algorithms effortlessly.
+
+**Features** :
+
+- **Intuitive Algorithm Design:** Construct complex algorithms by arranging and connecting visual nodes through an intuitive drag-and-drop interface.
+
+- **Automatic Code Generation:** Seamlessly translate your visual flowcharts into executable code snippets in popular programming languages.
+
+- **Effortless Testing:** Validate your algorithms promptly by simulating them directly within the visual flowchart interface.
+
+- **Streamlined Collaboration:** Facilitate effective teamwork by sharing visual designs, enabling real-time collaboration.
+
+**Pre-Requisites** :
+
+- Proficiency in JavaScript, Python, or Java.
+- Familiarity with web development technologies.
+- Basic understanding of algorithm design principles.
+
+**Resources** : [Prototype](https://drive.google.com/file/d/14XOqGd7501n6yqg8mClx46blVGA9j_5E/view), [Web](https://youtube.com/playlist?list=PLf7L7Kg8_FNzwwSK7c4Dei_h3oqg3dwYc), [React-Flow](https://reactflow.dev/docs/quickstart/), [Algorithms](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
+
+**Difficulty** : Hard
+
+**Mentor**: Sameer Gupta
