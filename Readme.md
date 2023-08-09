@@ -2,6 +2,7 @@
 - [Transfomer From Scratch](#transformer-from-scratch)
 - [Image Inpainting](#image-inpainting)
 - [Text Style Transfer](#text-style-transfer)
+- [3D reconstruction from single RGB image](#3d-reconstruction-from-single-rgb-image)
 
 ## Transformer From Scratch
 
@@ -55,3 +56,19 @@ Example : https://quillbot.com/
 **Difficulty** : Hard
 
 **Mentor** : Labib Asari
+
+
+
+
+## 3D reconstruction from single RGB image
+
+**Description** : The "Three-Dimensional Reconstruction from a Single RGB Image" project focuses on the field of computer vision and 3D reconstruction. The goal of this project is to develop algorithms and techniques that can take a single RGB image as input and generate a plausible 3D representation of the scene depicted in the image. This involves extracting depth information, estimating the shape of objects, and creating a 3D model that closely resembles the original scene. Through the project, you will embark on an enriching learning journey. You will develop a strong grasp of fundamental deep learning principles, encompassing neural networks, loss functions, and optimization. The project will immerse you in diverse computer vision techniques, from image processing to depth estimation methods. Domains explored in the project would be Computer Vision, Machine Learning, Geometry and 3D Modeling, Image-to-Depth Conversion.
+
+**Pre-Requisites** : Strong Python programming, experience in Deep Learning is preferable.
+
+**Resources** : [Three-Dimensional Reconstruction from a Single RGB Image
+Using Deep Learning](https://www.mdpi.com/2313-433X/8/9/225), [Pixel2Mesh](https://github.com/nywang16/Pixel2Mesh/tree/master) 
+
+**Difficulty** : Hard
+
+**Mentor** : Soham Mulye
