@@ -7,6 +7,7 @@
 - [Image Super resolution](#image-super-resolution)
 - [VisualFlow - No Code Algorithm Compiler](#visualflow---no-code-algorithm-compiler)
 - [No-Code DL](#no-code-dl)
+- [Therapist Bot](#therabot---your-ai-therapeutic-companion)
 
 ## Transformer From Scratch
 
@@ -133,3 +134,21 @@ The aim of this project is to extend No-Code DL to
 **Difficulty** : Medium
 
 **Mentor** : Sameer Gupta, Labib Asari
+
+## Therabot - Your AI Therapeutic Companion
+
+**Description** : The Therabot is an innovative application of transformer architecture that provides empathetic and supportive conversations to users seeking mental and emotional well-being. Leveraging the power of artificial intelligence and natural language processing, the Therapist Bot offers a safe and confidential space for individuals to discuss their thoughts, feelings, and challenges without the fear of judgment or stigma. This project combines advanced technology with therapeutic techniques to offer users an accessible and convenient mental health support system.
+
+**Pre-Requisites** : 
+- Proficiency in Python programming
+- Familiar with ML
+
+**Resources** : 
+- [Transfomer architecture](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
+- [Attention is all you need](https://arxiv.org/pdf/1706.03762) paper that introduced the Transformer architecture, a neural network model for NLP tasks that relies solely on attention mechanisms to process input sequences.
+- [NLP](https://www.coursera.org/specializations/natural-language-processing)
+
+
+**Difficulty** : Medium
+
+**Mentor** : Dishie Vinchhi, Om Doiphode
