@@ -6,8 +6,10 @@
 - [3D reconstruction from single RGB image](#3d-reconstruction-from-single-rgb-image)
 - [Image Super resolution](#image-super-resolution)
 - [VisualFlow - No Code Algorithm Compiler](#visualflow---no-code-algorithm-compiler)
+- [ChessAI - Advanced Chess Game with AI opponent](#chessai---advanced-chess-game-with-ai-opponent)
 - [No-Code DL](#no-code-dl)
 - [Therapist Bot](#therabot---your-ai-therapeutic-companion)
+
 
 ## Transformer From Scratch
 
@@ -115,6 +117,30 @@ Throughout this project, mentees will gain a comprehensive understanding of imag
 **Mentor**: Sameer Gupta
 
 
+## ChessAI - Advanced Chess Game with AI opponent
+
+ **Description** : ChessAI is an advanced chess game that offers players the opportunity to play against a highly intelligent AI opponent. The AI opponent utilizes the NegMax algorithm for move generation and evaluation. Additionally, a Genetic Algorithm is employed to enhance the AI's decision-making process, leading to more strategic and diverse gameplay.
+
+**Features** :
+
+- **User Interface and Gameplay:** Design an intuitive and visually appealing GUI for the chess game.
+Provide options to choose AI difficulty levels and game modes (player vs. AI, player vs. player).
+Highlight valid moves, check, and checkmate conditions.
+Implement features like castling, en passant captures, and pawn promotion.
+
+- **AI Part:** The project aims to initially implement the NegMax algorithm, optimizing move generation and evaluation for chess gameplay. Subsequently, the focus shifts to enhancing AI strategies through the integration of a Genetic Algorithm. This two-step approach ensures the development of a strong foundational AI before introducing evolutionary mechanisms for improved gameplay intelligence.
+
+**Pre-Requisites** : Strong Python programming, experience in Pygame is preferable.
+
+**Resources** : [Pygame](https://medium.com/iothincvit/pygame-for-beginners-234da7d3c56f)
+
+**Difficulty** : Hard
+
+**Mentor**: Siddheshsingh Tanwar
+
+
+
+
 ## No-Code DL
 
 **Description** : The [No-Code DL project](https://github.com/sameergupta4873/no-code-DL) was started by your seniors to develop a platform that enables users to build deep learning models using a drag-and-drop feature without writing a single line of code. The project empowers users to leverage the power of deep learning to solve real-world problems, regardless of their programming experience.
@@ -136,6 +162,8 @@ The aim of this project is to extend No-Code DL to
 
 **Mentor** : Sameer Gupta, Labib Asari
 
+
+
 ## Therabot - Your AI Therapeutic Companion
 
 **Description** : The Therabot is an innovative application of transformer architecture that provides empathetic and supportive conversations to users seeking mental and emotional well-being. Leveraging the power of artificial intelligence and natural language processing, the Therapist Bot offers a safe and confidential space for individuals to discuss their thoughts, feelings, and challenges without the fear of judgment or stigma. This project combines advanced technology with therapeutic techniques to offer users an accessible and convenient mental health support system.
@@ -153,3 +181,4 @@ The aim of this project is to extend No-Code DL to
 **Difficulty** : Medium
 
 **Mentor** : Dishie Vinchhi, Om Doiphode
+
