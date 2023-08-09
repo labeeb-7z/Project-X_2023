@@ -24,7 +24,7 @@ The final model we train will not be close to the current SoTA models (due to li
 
 **Difficulty** : Medium
 
-**Mentor** : Labib Asari
+**Mentor** : Labib Asari, Soham Mulye
 
 ## Image Inpainting
 
@@ -123,7 +123,8 @@ It also has a collboration feature that allows users to share their models with 
 The aim of this project is to extend No-Code DL to 
 - Improve the RNN support and add support for more complex models such as Transformers, GANs, etc.
 - Develop a mechanism to allow users to upload their own datasets.
-- Research and implement a mechanism to allow users to train their models on the cloud.
+- Research and implement a mechanism to allow users to train their models on the cloud or locally.
+- Design a mini-model to infer users problem and generate recommendations for model choices.
 - [WebGPU](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) is recent development in the web world that allows us to use the GPU directly from the browser. Research on how No-Code DL can leverage this.
 
 **Pre-Requisites** : Basic Web Development(NextJS and tailwind experience is a plus)  OR  Python(Basic Deep Learning Knowledge is a plus)
