@@ -7,6 +7,9 @@
 - [Image Super resolution](#image-super-resolution)
 - [VisualFlow - No Code Algorithm Compiler](#visualflow---no-code-algorithm-compiler)
 - [ChessAI - Advanced Chess Game with AI opponent](#chessai---advanced-chess-game-with-ai-opponent)
+- [No-Code DL](#no-code-dl)
+- [Therapist Bot](#therabot---your-ai-therapeutic-companion)
+
 
 ## Transformer From Scratch
 
@@ -16,7 +19,7 @@
 - Then move to the basics of Processing sequential/text data using RNNs,LSTMs, understand their usecases, drawbacks and the need of transformers.
 - Finally we understand the working of transformers and implement a `text-completion model` using it from scratch.
 
-The final model we train will not be close to the current SoTA models (due to limited data and compute) but you'll gain a thorough understanding of the transformer architecture and its working so you can contribute to the real-world Transformer research.
+The final model we train will not be close to the current SoTA models (due to limited data and compute) but you'll gain a thorough understanding of the transformer architecture and its working so you can contribute to the real-world development and research of Transformer-based models in Open-source(which is huge! and only increasing) or otherwise.
 
 **Pre-Requisites** : Strong Python and C++ programming.
 
@@ -24,7 +27,7 @@ The final model we train will not be close to the current SoTA models (due to li
 
 **Difficulty** : Medium
 
-**Mentor** : Labib Asari
+**Mentor** : Labib Asari, Soham Mulye
 
 ## Image Inpainting
 
@@ -36,7 +39,7 @@ FIrst things first since this is a computer vision project, knowledge of basics 
 Stage 2: Deep Learning Implementation of Image Inpainting
 Building upon your knowledge from the first stage, you will dive into the exciting world of deep learning. You will design and implement a neural network for image inpainting using state-of-the-art techniques. This stage empowers you to leverage the power of artificial intelligence to produce visually appealing and contextually accurate inpainted images.
 
-**Pre-requisite** : Computer Vision, Deep learning, Python
+**Pre-requisite** : Python Programming (Some Computer Vision and Deep Learing knowledge is a plus)
 
 **Resources** : [Image-Inpainting Paper](https://arxiv.org/pdf/2104.01431.pdf), [Edge-Connect](https://github.com/knazeri/edge-connect), [OpenCV-Inpainting tutorial](https://docs.opencv.org/3.4/df/d3d/tutorial_py_inpainting.html).
 
@@ -113,6 +116,7 @@ Throughout this project, mentees will gain a comprehensive understanding of imag
 
 **Mentor**: Sameer Gupta
 
+
 ## ChessAI - Advanced Chess Game with AI opponent
 
  **Description** : ChessAI is an advanced chess game that offers players the opportunity to play against a highly intelligent AI opponent. The AI opponent utilizes the NegMax algorithm for move generation and evaluation. Additionally, a Genetic Algorithm is employed to enhance the AI's decision-making process, leading to more strategic and diverse gameplay.
@@ -134,4 +138,47 @@ Implement features like castling, en passant captures, and pawn promotion.
 
 **Mentor**: Siddheshsingh Tanwar
 
+
+
+
+## No-Code DL
+
+**Description** : The [No-Code DL project](https://github.com/sameergupta4873/no-code-DL) was started by your seniors to develop a platform that enables users to build deep learning models using a drag-and-drop feature without writing a single line of code. The project empowers users to leverage the power of deep learning to solve real-world problems, regardless of their programming experience.
+The webapp consists of a user-friendly interface allowing them to design their model architecture using a drag-and-drop feature, chose datasets,hyperparametrs, etc. It currently supports Standard Neural Networks, Convolutional Neural Networks and basic Recurrent Neural Networks.
+It also has a collboration feature that allows users to share their models with others,  work on them together in real-time and save different architectures as commits.
+
+The aim of this project is to extend No-Code DL to 
+- Improve the RNN support and add support for more complex models such as Transformers, GANs, etc.
+- Develop a mechanism to allow users to upload their own datasets.
+- Research and implement a mechanism to allow users to train their models on the cloud or locally.
+- Design a mini-model to infer users problem and generate recommendations for model choices.
+- [WebGPU](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API) is recent development in the web world that allows us to use the GPU directly from the browser. Research on how No-Code DL can leverage this.
+
+**Pre-Requisites** : Basic Web Development(NextJS and tailwind experience is a plus)  OR  Python(Basic Deep Learning Knowledge is a plus)
+
+**Resources** : [No-Code DL source-code](https://github.com/sameergupta4873/no-code-DL) Go throught it understand the existing implementation, [NextJS](https://www.youtube.com/watch?v=wm5gMKuwSYk&pp=ygUGbmV4dGpz), [Deep Learning](https://d2l.ai/)
+
+**Difficulty** : Medium
+
+**Mentor** : Sameer Gupta, Labib Asari
+
+
+
+## Therabot - Your AI Therapeutic Companion
+
+**Description** : The Therabot is an innovative application of transformer architecture that provides empathetic and supportive conversations to users seeking mental and emotional well-being. Leveraging the power of artificial intelligence and natural language processing, the Therapist Bot offers a safe and confidential space for individuals to discuss their thoughts, feelings, and challenges without the fear of judgment or stigma. This project combines advanced technology with therapeutic techniques to offer users an accessible and convenient mental health support system.
+
+**Pre-Requisites** : 
+- Proficiency in Python programming
+- Familiar with ML
+
+**Resources** : 
+- [Transfomer architecture](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
+- [Attention is all you need](https://arxiv.org/pdf/1706.03762) paper that introduced the Transformer architecture, a neural network model for NLP tasks that relies solely on attention mechanisms to process input sequences.
+- [NLP](https://www.coursera.org/specializations/natural-language-processing)
+
+
+**Difficulty** : Medium
+
+**Mentor** : Dishie Vinchhi, Om Doiphode
 
