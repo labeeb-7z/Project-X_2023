@@ -8,7 +8,7 @@
 - [VisualFlow - No Code Algorithm Compiler](#visualflow---no-code-algorithm-compiler)
 - [ChessAI - Advanced Chess Game with AI opponent](#chessai---advanced-chess-game-with-ai-opponent)
 - [No-Code DL](#no-code-dl)
-- [Therapist Bot](#therabot---your-ai-therapeutic-companion)
+- [Healthcare Chatbot](#healthbuddy---your-ai-health-companion)
 - [Semantic Segmentation](#semantic-segmentation)
 
 ## Transformer From Scratch
@@ -158,9 +158,20 @@ The aim of this project is to extend No-Code DL to
 
 **Mentor** : Sameer Gupta, Labib Asari
 
-## Therabot - Your AI Therapeutic Companion
+## HealthBuddy - Your AI Health Companion
 
-**Description** : The Therabot is an innovative application of transformer architecture that provides empathetic and supportive conversations to users seeking mental and emotional well-being. Leveraging the power of artificial intelligence and natural language processing, the Therapist Bot offers a safe and confidential space for individuals to discuss their thoughts, feelings, and challenges without the fear of judgment or stigma. This project combines advanced technology with therapeutic techniques to offer users an accessible and convenient mental health support system.
+**Description** : The HealthBuddy Chatbot is an innovative and user-friendly healthcare solution designed to provide individuals with personalized and reliable healthcare information and support. This project aims to create a versatile chatbot that can offer assistance in various aspects of healthcare, including symptom diagnosis, mental health consultation, nutrition guidance, and more. The inspiration behind this project is to empower users to make informed healthcare decisions and promote overall well-being.
+
+**Why are chatbots important in healthcare?**
+
+According to a [research](https://link.springer.com/article/10.1007/s10916-019-1237-1) in 2019, the most valuable features of using chatbots in healthcare include:
+- **Monitoring**: Awareness and tracking of user’s behavior, anxiety, and weight changes to encourage developing better habits.
+- **Anonymity**: Especially in sensitive and mental health issues.
+- **Personalization**: Level of personalization depends on the specific application. Some applications make use of measurements of:
+   - Physical vitals (oxygenation, heart rhythm, body temperature) via mobile sensors.
+   - Patient behavior via facial recognition.
+- **Real time interaction**: Immediate response, notifications, and reminders.
+- **Scalability**: Ability to react with numerous users at the same time
 
 **Pre-Requisites** : 
 - Proficiency in Python programming
