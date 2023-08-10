@@ -9,7 +9,7 @@
 - [ChessAI - Advanced Chess Game with AI opponent](#chessai---advanced-chess-game-with-ai-opponent)
 - [No-Code DL](#no-code-dl)
 - [Therapist Bot](#therabot---your-ai-therapeutic-companion)
-
+- [Semantic Segmentation](#semantic-segmentation)
 
 ## Transformer From Scratch
 
@@ -116,7 +116,6 @@ Throughout this project, mentees will gain a comprehensive understanding of imag
 
 **Mentor**: Sameer Gupta
 
-
 ## ChessAI - Advanced Chess Game with AI opponent
 
  **Description** : ChessAI is an advanced chess game that offers players the opportunity to play against a highly intelligent AI opponent. The AI opponent utilizes the NegMax algorithm for move generation and evaluation. Additionally, a Genetic Algorithm is employed to enhance the AI's decision-making process, leading to more strategic and diverse gameplay.
@@ -137,9 +136,6 @@ Implement features like castling, en passant captures, and pawn promotion.
 **Difficulty** : Hard
 
 **Mentor**: Siddheshsingh Tanwar
-
-
-
 
 ## No-Code DL
 
@@ -162,8 +158,6 @@ The aim of this project is to extend No-Code DL to
 
 **Mentor** : Sameer Gupta, Labib Asari
 
-
-
 ## Therabot - Your AI Therapeutic Companion
 
 **Description** : The Therabot is an innovative application of transformer architecture that provides empathetic and supportive conversations to users seeking mental and emotional well-being. Leveraging the power of artificial intelligence and natural language processing, the Therapist Bot offers a safe and confidential space for individuals to discuss their thoughts, feelings, and challenges without the fear of judgment or stigma. This project combines advanced technology with therapeutic techniques to offer users an accessible and convenient mental health support system.
@@ -181,4 +175,25 @@ The aim of this project is to extend No-Code DL to
 **Difficulty** : Medium
 
 **Mentor** : Dishie Vinchhi, Om Doiphode
+
+## Semantic Segmentation
+
+**Description** : Semantic segmentation is a computer vision technique that involves partitioning an image into multiple segments, where each segment corresponds to a meaningful object or region within the image. The goal of semantic segmentation is to assign a specific label to each pixel in the image, indicating the category or class of the object or region that pixel belongs to.
+
+In simpler terms, semantic segmentation aims to understand the content of an image at a pixel level by distinguishing and labeling different objects or areas. It is widely used in various applications, including autonomous driving, medical image analysis, object detection and recognition, scene understanding, and more.
+
+Stage 1: Hands-on Implementation of OpenCV libraries and Semantic Segmentation On Images
+In this initial project stage, the mentee will acquire essential skills in computer vision using OpenCV, grasp neural network basics, and delve into model optimization and pruning. Tasks include learning image processing with OpenCV, understanding neural network components, preprocessing a chosen dataset, building a basic CNN model for semantic segmentation, exploring model tuning and regularization, and gaining an introduction to model pruning techniques. This stage sets the groundwork for developing an efficient neural network model for image segmentation in subsequent stages.
+
+Stage 2: Extending Stage 1 to video frames
+Second stage of project will involve extending stage 1 of the project and implementing on video frames and testing for its efficiency with real-time speed. This part of project will involve extensive pruining of model and hence developing a better understanding and knowledge of neural networks.
+
+
+**Pre-requisite** : Python Programming (Some Computer Vision and Deep Learing knowledge is a plus)
+
+**Resources** :  [What Is Image Segmentation ?](https://www.v7labs.com/blog/image-segmentation-guide) - To understand Image Segmentation , [Semantic Segmentation Paper](https://sci-hub.se/https://doi.org/10.1109/IESPC.2019.8902391) - Just go through it,[Image Segmentation](https://github.com/ChinmayMundane/Image_segmentation) - Just go through readme and understand the basics of it
+
+**Difficulty** : Medium
+
+**Mentor** : Smit
 
